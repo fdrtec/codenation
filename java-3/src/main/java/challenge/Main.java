@@ -14,7 +14,7 @@ public class Main {
 		scan.nextLine();
 		while(scan.hasNext()){
 			String str[] = scan.nextLine().split(",");
-			players.add(new Player(new Integer(str[0]),str[1], str[2], str[3], str[14], new BigDecimal(str[18])));
+			players.add(new Player(new Integer(str[0]),str[1], str[2], str[3], str[14], new BigDecimal(str[17])));
 		}
 	}
 
@@ -47,7 +47,8 @@ public class Main {
 	public List<String> q4() {
 		players.forEach(player -> System.out.println(player.getEurReleaseClasse()));
 		System.out.println(new Double("95800000.0"));
-		BigDecimal.Double.parseDouble("95800000.0");
+
+		//BigDecimal("95800000.0");
 		return null;
 	}
 

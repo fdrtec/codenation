@@ -14,7 +14,7 @@ public class Main {
 		scan.nextLine();
 		while(scan.hasNext()){
 			String str[] = scan.nextLine().split(",");
-			players.add(new Player(new Integer(str[0]),str[1], str[2], str[3], str[14], new BigDecimal(str[17])));
+			players.add(new Player(new Integer(str[0]),str[1], str[2], str[3], str[14], str[18]));
 		}
 	}
 
@@ -45,11 +45,15 @@ public class Main {
 	// Quem são os top 10 jogadores que possuem as maiores cláusulas de rescisão?
 	// (utilize as colunas `full_name` e `eur_release_clause`)
 	public List<String> q4() {
-		players.forEach(player -> System.out.println(player.getEurReleaseClasse()));
-		System.out.println(new Double("95800000.0"));
+		List<String> playersLargerTerminationClausesTop10 = new ArrayList<>();
 
-		//BigDecimal("95800000.0");
-		return null;
+		Collections.sort(players, (o1, o2) -> o1.getEurReleaseClause().compareTo(o2.getEurReleaseClause()));
+		Collections.reverse(players);
+
+		for (int i=0; i < 10; i++){
+			playersLargerTerminationClausesTop10.add(players.get(i).getFullName());
+		}
+		return playersLargerTerminationClausesTop10;
 	}
 
 	// Quem são os 10 jogadores mais velhos (use como critério de desempate o campo `eur_wage`)?

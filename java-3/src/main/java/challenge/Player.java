@@ -8,15 +8,17 @@ public class Player {
     private String name;
     private String fullName;
     private String club;
+    private Integer age;
     private String nationality;
     private BigDecimal eurReleaseClause;
 
 
-    public Player(Integer id, String name, String fullName, String club, String nationality, String eurReleaseClause) {
+    public Player(Integer id, String name, String fullName, String club, Integer age,String nationality, String eurReleaseClause) {
         this.id = id;
         this.name = name;
         this.fullName = fullName;
         this.club = club;
+        this.age = age;
         this.nationality = nationality;
         this.eurReleaseClause = convertBigData(eurReleaseClause);
     }
@@ -35,6 +37,10 @@ public class Player {
 
     public String getNationality() {
         return nationality;
+    }
+
+    public Integer getAge() {
+        return age;
     }
 
     public String getClub() {

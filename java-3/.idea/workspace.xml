@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04ab4c4a-521e-491a-a7bd-320ba0b285c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/challenge.SubmitTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-challenge.SubmitTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/challenge/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/Player.java" afterDir="false" />
     </list>
@@ -25,11 +26,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/challenge/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="44" column="80" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="80" />
+            <state relative-caret-position="180">
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
               <folding>
-                <element signature="e#1957#1958#0" expanded="true" />
-                <element signature="e#2171#2172#0" expanded="true" />
+                <element signature="e#2035#2036#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/challenge/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="-137">
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -47,13 +47,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/challenge/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-336">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="252">
+              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
               <folding>
-                <element signature="e#886#887#0" expanded="true" />
-                <element signature="e#958#959#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
-                <element signature="e#1102#1103#0" expanded="true" />
+                <element signature="e#947#948#0" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
+                <element signature="e#1134#1135#0" expanded="true" />
+                <element signature="e#1220#1221#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,7 +175,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548036272546" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548040264050" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -190,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.q4">
+  <component name="RunManager" selected="JUnit.MainTest.q2">
     <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-3.test" />
       <extension name="coverage">
@@ -202,22 +203,6 @@
       <option name="PACKAGE_NAME" value="challenge" />
       <option name="MAIN_CLASS_NAME" value="challenge.MainTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.q1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-3.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="challenge" />
-      <option name="MAIN_CLASS_NAME" value="challenge.MainTest" />
-      <option name="METHOD_NAME" value="q1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -270,13 +255,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.q6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-3.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="challenge" />
+      <option name="MAIN_CLASS_NAME" value="challenge.MainTest" />
+      <option name="METHOD_NAME" value="q6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.q2" />
+        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.MainTest.q6" />
         <item itemvalue="JUnit.MainTest.q4" />
         <item itemvalue="JUnit.MainTest.q3" />
-        <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.q2" />
-        <item itemvalue="JUnit.MainTest.q1" />
       </list>
     </recent_temporary>
   </component>
@@ -294,44 +295,44 @@
       <workItem from="1547982795051" duration="15336000" />
       <workItem from="1548012737680" duration="197000" />
       <workItem from="1548013855324" duration="2852000" />
-      <workItem from="1548030559996" duration="5697000" />
+      <workItem from="1548030559996" duration="9805000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest_q4 - 2019.01.20 at 22h 37m 00s.xml">
-      <configuration name="MainTest.q4" configurationId="JUnit" />
+    <history-entry file="MainTest_q6 - 2019.01.21 at 00h 50m 15s.xml">
+      <configuration name="MainTest.q6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_q4 - 2019.01.20 at 22h 37m 44s.xml">
-      <configuration name="MainTest.q4" configurationId="JUnit" />
+    <history-entry file="MainTest_q6 - 2019.01.21 at 00h 50m 44s.xml">
+      <configuration name="MainTest.q6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_q4 - 2019.01.20 at 22h 44m 15s.xml">
-      <configuration name="MainTest.q4" configurationId="JUnit" />
+    <history-entry file="MainTest_q6 - 2019.01.21 at 00h 55m 40s.xml">
+      <configuration name="MainTest.q6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_q4 - 2019.01.20 at 23h 40m 15s.xml">
-      <configuration name="MainTest.q4" configurationId="JUnit" />
+    <history-entry file="MainTest_q6 - 2019.01.21 at 00h 56m 01s.xml">
+      <configuration name="MainTest.q6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_q4 - 2019.01.20 at 23h 41m 19s.xml">
-      <configuration name="MainTest.q4" configurationId="JUnit" />
+    <history-entry file="MainTest_q6 - 2019.01.21 at 00h 57m 01s.xml">
+      <configuration name="MainTest.q6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_q4 - 2019.01.20 at 23h 43m 17s.xml">
-      <configuration name="MainTest.q4" configurationId="JUnit" />
+    <history-entry file="MainTest_q2 - 2019.01.21 at 00h 59m 29s.xml">
+      <configuration name="MainTest.q2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_q4 - 2019.01.20 at 23h 43m 56s.xml">
-      <configuration name="MainTest.q4" configurationId="JUnit" />
+    <history-entry file="MainTest_q6 - 2019.01.21 at 01h 03m 39s.xml">
+      <configuration name="MainTest.q6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_q4 - 2019.01.20 at 23h 44m 55s.xml">
-      <configuration name="MainTest.q4" configurationId="JUnit" />
+    <history-entry file="MainTest_q6 - 2019.01.21 at 01h 08m 11s.xml">
+      <configuration name="MainTest.q6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_q4 - 2019.01.21 at 00h 02m 40s.xml">
-      <configuration name="MainTest.q4" configurationId="JUnit" />
+    <history-entry file="MainTest - 2019.01.21 at 01h 09m 05s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_q4 - 2019.01.21 at 00h 03m 11s.xml">
-      <configuration name="MainTest.q4" configurationId="JUnit" />
+    <history-entry file="MainTest_q2 - 2019.01.21 at 01h 11m 08s.xml">
+      <configuration name="MainTest.q2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37167000" />
+    <option name="totallyTimeSpent" value="41275000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,7 +344,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="27" width="1299" height="741" extended-state="7" />
+    <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26656026" />
@@ -361,7 +362,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3294893" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32784185" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32561985" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3294893" />
@@ -420,31 +421,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/challenge/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="252">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
           <folding>
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/challenge/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="-137">
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/challenge/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="44" column="80" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="80" />
+        <state relative-caret-position="180">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding>
-            <element signature="e#1957#1958#0" expanded="true" />
-            <element signature="e#2171#2172#0" expanded="true" />
+            <element signature="e#2035#2036#0" expanded="true" />
           </folding>
         </state>
       </provider>

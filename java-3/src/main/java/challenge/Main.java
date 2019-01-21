@@ -14,7 +14,7 @@ public class Main {
 		scan.nextLine();
 		while(scan.hasNext()){
 			String str[] = scan.nextLine().split(",");
-			players.add(new Player(new Integer(str[0]),str[1], str[2], str[3], str[14], str[18]));
+			players.add(new Player(new Integer(str[0]),str[1], str[2], str[3], new Integer(str[6]), str[14], str[18]));
 		}
 	}
 
@@ -46,7 +46,6 @@ public class Main {
 	// (utilize as colunas `full_name` e `eur_release_clause`)
 	public List<String> q4() {
 		List<String> playersLargerTerminationClausesTop10 = new ArrayList<>();
-
 		Collections.sort(players, (o1, o2) -> o1.getEurReleaseClause().compareTo(o2.getEurReleaseClause()));
 		Collections.reverse(players);
 
@@ -65,6 +64,11 @@ public class Main {
 	// Conte quantos jogadores existem por idade. Para isso, construa um mapa onde as chaves são as idades e os valores a contagem.
 	// (utilize a coluna `age`)
 	public Map<Integer, Integer> q6() {
-		return null;
+		HashMap<Integer, Integer> groupedAges = new HashMap<>();
+		players.forEach(player -> {
+			if(groupedAges.containsKey(player.getAge())) groupedAges.put(player.getAge(), groupedAges.get(player.getAge()) +1);
+			else groupedAges.put(player.getAge(), 1);
+		});
+		return groupedAges;
 	}
 }

@@ -1,25 +1,29 @@
 package challenge;
 
 import java.math.BigDecimal;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.util.Date;
 
 public class Player {
 
-    private Integer id;
-    private String name;
     private String fullName;
     private String club;
     private Integer age;
+    private Date birthDate;
     private String nationality;
+    private Double eurWage;
     private BigDecimal eurReleaseClause;
 
 
-    public Player(Integer id, String name, String fullName, String club, Integer age,String nationality, String eurReleaseClause) {
-        this.id = id;
-        this.name = name;
+    public Player(String fullName, String club, Integer age, String birthDate, String nationality, Double eurWage, String eurReleaseClause) throws ParseException {
         this.fullName = fullName;
         this.club = club;
         this.age = age;
         this.nationality = nationality;
+        this.birthDate = convertDate(birthDate);
+        this.eurWage = eurWage;
         this.eurReleaseClause = convertBigData(eurReleaseClause);
     }
 
@@ -29,6 +33,12 @@ public class Player {
         }else {
             return new BigDecimal(urReleaseClause);
         }
+    }
+
+    private Date convertDate (String date) throws ParseException {
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+        Date dateFormated = format.parse(date);
+        return dateFormated;
     }
 
     public String getFullName() {
@@ -50,4 +60,8 @@ public class Player {
     public BigDecimal getEurReleaseClause() {
         return eurReleaseClause;
     }
+
+    public Date getBirthDate() { return birthDate; }
+
+    public Double getEurWage() { return eurWage; }
 }

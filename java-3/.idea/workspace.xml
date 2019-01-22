@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04ab4c4a-521e-491a-a7bd-320ba0b285c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/.~lock.data.csv#" beforeDir="false" />
-    </list>
+    <list default="true" id="04ab4c4a-521e-491a-a7bd-320ba0b285c8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -80,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
     <option name="y" value="27" />
     <option name="width" value="650" />
@@ -168,7 +163,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548117991408" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548118836961" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -290,7 +285,7 @@
       <workItem from="1548013855324" duration="2852000" />
       <workItem from="1548030559996" duration="9973000" />
       <workItem from="1548111163053" duration="243000" />
-      <workItem from="1548113774652" duration="4114000" />
+      <workItem from="1548113774652" duration="4791000" />
     </task>
     <servers />
   </component>
@@ -327,7 +322,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45800000" />
+    <option name="totallyTimeSpent" value="46477000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -339,9 +334,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="27" width="650" height="741" extended-state="4" />
+    <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.45695364" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22027135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />

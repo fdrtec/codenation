@@ -9,8 +9,6 @@ import java.util.stream.Collectors;
 
 public class Main {
 
-	int myArray1[10];
-
 	private List<Player> players = new ArrayList<>();
 
 	public Main() throws FileNotFoundException, ParseException {

@@ -24,6 +24,12 @@ public class RecipeController {
 		return service.get(null);
 	}
 
+//	@GetMapping("/estabelecimentos")
+//	public ResponseEntity<List<Estabelecimento>>getEstabelecimentos(){
+//		return ResponseEntity.ok((estabelecimentoService.getEstabelecimentos()));
+//	}
+
+
 	public List<Recipe> listByIngredient() {
 		return service.listByIngredient(null);
 	}

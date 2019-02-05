@@ -2,6 +2,7 @@ package challenge;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
@@ -20,7 +21,15 @@ public class RecipeServiceImpl implements RecipeService {
 
 	@Override
 	public void update(String id, Recipe recipe) {
+		Optional<Recipe> outdatedRevenue = recipeRepository.findById(id);
 
+		if(outdatedRevenue.isPresent()){
+			Recipe updatedRecipe = outdatedRevenue.get();
+			updatedRecipe.setTitle(recipe.getTitle());
+			updatedRecipe.setDescription(recipe.getDescription());
+			updatedRecipe.setIngredients(recipe.getIngredients());
+			recipeRepository.save(updatedRecipe);
+		}
 	}
 
 	@Override

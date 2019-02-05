@@ -1,5 +1,6 @@
 package challenge;
 
+import java.util.Arrays;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,7 +37,7 @@ public class RecipeServiceImpl implements RecipeService {
 
 	@Override
 	public List<Recipe> listByIngredient(String ingredient) {
-		return recipeRepository.findByIngredients(ingredient);
+		return recipeRepository.findAllByIngredientsEqualsOrderByTitleAsc(ingredient);
 	}
 
 	@Override
@@ -70,9 +71,9 @@ public class RecipeServiceImpl implements RecipeService {
 	}
 
 	// metodo inicial para testar mongo com spring
-	@Override
-	public List<Recipe> index(String id) {
-		return recipeRepository.findAll();
-	}
+//	@Override
+//	public List<Recipe> index(String id) {
+//		return recipeRepository.findAll();
+//	}
 
 }

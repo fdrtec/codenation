@@ -25,8 +25,8 @@ public class RecipeController {
 	public Recipe get() { return service.get(null);
 	}
 
-	@GetMapping("/recipe/{ingredient}")
-	public List<Recipe> listByIngredient(@PathVariable ("ingredient") String ingredient) {
+	@GetMapping("/recipe/ingredient")
+	public List<Recipe> listByIngredient(@RequestParam("ingredient") String ingredient) {
 		return service.listByIngredient(ingredient);
 	}
 

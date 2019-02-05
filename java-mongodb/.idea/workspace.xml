@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8b5cfa3-4091-413c-97f7-c66e4812d36a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/challenge/RecipeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/challenge/Recipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/challenge/Recipe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/challenge/RecipeComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/challenge/RecipeComment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/challenge/RecipeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/challenge/RecipeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/challenge/RecipeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/challenge/RecipeService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/challenge/RecipeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/challenge/RecipeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/Comment.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/challenge/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/Recipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/RecipeComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/RecipeComment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/challenge/RecipeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/RecipeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/RecipeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/RecipeRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/challenge/RecipeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/RecipeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/challenge/RecipeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/RecipeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/challenge/RecipeIntegrationTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/challenge/RecipeRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+              <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/challenge/Recipe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="67">
+              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1557#1558#0" expanded="true" />
@@ -64,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/challenge/RecipeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="112">
+              <caret line="28" column="82" selection-start-line="27" selection-start-column="4" selection-end-line="28" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -73,26 +65,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/challenge/RecipeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="435">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/challenge/RecipeServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb/2.0.10.RELEASE/442e8d13605ad3b52dbcfca2af6a2511b7417e79/spring-data-mongodb-2.0.10.RELEASE-sources.jar!/org/springframework/data/mongodb/repository/MongoRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+            <state relative-caret-position="118">
+              <caret line="39" column="74" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -117,17 +100,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/challenge/RecipeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/challenge/Recipe.java" />
         <option value="$PROJECT_DIR$/src/main/java/challenge/RecipeComment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/challenge/RecipeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/challenge/RecipeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/challenge/RecipeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/challenge/Recipe.java" />
         <option value="$PROJECT_DIR$/src/main/java/challenge/RecipeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/challenge/RecipeServiceImpl.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="67" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1091" />
     <option name="y" value="27" />
     <option name="width" value="1299" />
     <option name="height" value="741" />
@@ -165,7 +148,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549333115667" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549372783525" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -202,15 +185,16 @@
       <option name="presentableId" value="Default" />
       <updated>1549284469620</updated>
       <workItem from="1549284473360" duration="13147000" />
-      <workItem from="1549328380141" duration="4605000" />
+      <workItem from="1549328380141" duration="6019000" />
+      <workItem from="1549364310073" duration="6216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17752000" />
+    <option name="totallyTimeSpent" value="25382000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="27" width="1299" height="741" extended-state="7" />
+    <frame x="1091" y="27" width="1299" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25139666" />
@@ -230,10 +214,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3305785" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.27768594" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5305785" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289256" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3289256" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
@@ -260,17 +244,17 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45619833" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45619833" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3305785" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.27768594" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5305785" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289256" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3289256" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
@@ -291,22 +275,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenge/Recipe.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb/2.0.10.RELEASE/442e8d13605ad3b52dbcfca2af6a2511b7417e79/spring-data-mongodb-2.0.10.RELEASE-sources.jar!/org/springframework/data/mongodb/repository/MongoRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1557#1558#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb/2.0.10.RELEASE/442e8d13605ad3b52dbcfca2af6a2511b7417e79/spring-data-mongodb-2.0.10.RELEASE-sources.jar!/org/springframework/data/mongodb/repository/MongoRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenge/RecipeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
@@ -320,34 +299,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenge/Recipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1557#1558#0" expanded="true" />
+            <element signature="e#1603#1604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/challenge/RecipeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenge/RecipeService.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenge/RecipeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
+          <caret line="28" column="82" selection-start-line="27" selection-start-column="4" selection-end-line="28" selection-end-column="87" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/challenge/RecipeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenge/RecipeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="39" column="74" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
         </state>
       </provider>
     </entry>

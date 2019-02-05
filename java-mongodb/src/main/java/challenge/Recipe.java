@@ -1,6 +1,7 @@
 package challenge;
 
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;
@@ -12,11 +13,13 @@ import java.util.List;
  * Classe para mapear a receita no MongoDB
  *
  */
-@Document
+
+//@JsonInclude(JsonInclude.Include.NON_NULL)
+@Document(collection = "recipe")
 public class Recipe {
 
     @Id
-    private ObjectId _id;
+    private String id;
     private String title;
     private String description;
     private List<String> likes;
@@ -25,8 +28,8 @@ public class Recipe {
 
     public Recipe(){}
 
-    public Recipe(ObjectId _id, String title, String description, List<String> likes, List<String> ingredients, List<RecipeComment> comments) {
-        this._id = _id;
+    public Recipe( String id, String title, String description, List<String> likes, List<String> ingredients, List<RecipeComment> comments) {
+        this.id = id;
         this.title = title;
         this.description = description;
         this.likes = likes;
@@ -34,9 +37,9 @@ public class Recipe {
         this.comments = comments;
     }
 
-    public ObjectId get_id() {
-        return _id;
-    }
+    public String getId() {return id;}
+
+    public void setId(String id) {this.id = id;}
 
     public String getTitle() {
         return title;

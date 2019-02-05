@@ -2,9 +2,9 @@ package challenge;
 
 
 import org.bson.types.ObjectId;
-
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
+import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.List;
 
 
@@ -12,7 +12,7 @@ import java.util.List;
  * Classe para mapear a receita no MongoDB
  *
  */
-@Entity
+@Document
 public class Recipe {
 
     @Id
@@ -21,9 +21,11 @@ public class Recipe {
     private String description;
     private List<String> likes;
     private List<String> ingredients;
-    private List<Comment> comments;
+    private List<RecipeComment> comments;
 
-    public Recipe(ObjectId _id, String title, String description, List<String> likes, List<String> ingredients, List<Comment> comments) {
+    public Recipe(){}
+
+    public Recipe(ObjectId _id, String title, String description, List<String> likes, List<String> ingredients, List<RecipeComment> comments) {
         this._id = _id;
         this.title = title;
         this.description = description;
@@ -68,11 +70,11 @@ public class Recipe {
         this.ingredients = ingredients;
     }
 
-    public List<Comment> getComments() {
+    public List<RecipeComment> getComments() {
         return comments;
     }
 
-    public void setComments(List<Comment> comments) {
+    public void setComments(List<RecipeComment> comments) {
         this.comments = comments;
     }
 }

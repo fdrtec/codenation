@@ -1,16 +1,18 @@
 package challenge;
 
 import java.util.List;
-import org.springframework.beans.factory.annotation.Autowired;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
 public class RecipeController {
 
 	@Autowired
 	private RecipeService service;
 
-	public Recipe save() {
-		return service.save(null);
-	}
+	@PostMapping("/recipe")
+	public Recipe save(@RequestBody Recipe recipe) { return service.save(recipe);}
 
 	public void update() {
 		service.update(null, null);
@@ -20,18 +22,12 @@ public class RecipeController {
 		service.delete(null);
 	}
 
-	public Recipe get() {
-		return service.get(null);
+	public Recipe get() { return service.get(null);
 	}
 
-//	@GetMapping("/estabelecimentos")
-//	public ResponseEntity<List<Estabelecimento>>getEstabelecimentos(){
-//		return ResponseEntity.ok((estabelecimentoService.getEstabelecimentos()));
-//	}
-
-
-	public List<Recipe> listByIngredient() {
-		return service.listByIngredient(null);
+	@GetMapping("/recipe/{ingredient}")
+	public List<Recipe> listByIngredient(@PathVariable ("ingredient") String ingredient) {
+		return service.listByIngredient(ingredient);
 	}
 
 	public List<Recipe> search() {
@@ -57,5 +53,15 @@ public class RecipeController {
 	public void deleteComment() {
 		service.deleteComment(null, null);
 	}
+
+//	@GetMapping("/receita")
+//	public List<Recipe> list(String title) {
+//		return service.index(title);
+//	}
+
+//	@GetMapping("/estabelecimentos")
+//	public ResponseEntity<List<Estabelecimento>>getEstabelecimentos(){
+//		return ResponseEntity.ok((estabelecimentoService.getEstabelecimentos()));
+//	}
 
 }

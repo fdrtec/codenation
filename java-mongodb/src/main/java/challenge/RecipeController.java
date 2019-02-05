@@ -24,7 +24,9 @@ public class RecipeController {
 		service.delete(id);
 	}
 
-	public Recipe get() { return service.get(null);
+	@GetMapping("/recipe/{id}")
+	public Recipe get(@PathVariable("id") String id) {
+	    return service.get(id);
 	}
 
 	@GetMapping("/recipe/ingredient")

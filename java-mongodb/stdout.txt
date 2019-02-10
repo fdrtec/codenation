@@ -1,0 +1,26 @@
+
+Welcome to Gradle 4.10!
+
+Here are the highlights of this release:
+ - Incremental Java compilation by default
+ - Periodic Gradle caches cleanup
+ - Gradle Kotlin DSL 1.0-RC3
+ - Nested included builds
+ - SNAPSHOT plugin versions in the `plugins {}` block
+
+For more details see https://docs.gradle.org/4.10/release-notes.html
+
+> Task :clean UP-TO-DATE
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+2019-02-08 10:36:37.764  INFO 11475 --- [       Thread-6] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@50ea75ef: startup date [Fri Feb 08 10:36:28 BRST 2019]; root of context hierarchy
+2019-02-08 10:36:37.774  INFO 11475 --- [       Thread-6] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:17}] to localhost:27017 because the pool has been closed.
+
+BUILD SUCCESSFUL in 25s
+5 actionable tasks: 4 executed, 1 up-to-date
